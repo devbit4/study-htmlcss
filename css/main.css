@@ -1,8 +1,10 @@
 .profile {
 
 width: 200px; 
-display: block; margin-left: 
-auto; margin-right: auto; 
+display: block; 
+margin-left: 
+auto; 
+margin-right: auto; 
 margin-top: 100px;
 border-radius: 20px;
 
@@ -36,4 +38,35 @@ p{
     margin-right: auto;
 
     
+}
+
+.container{
+    width: 800px;
+
+}
+
+.header{
+    width: 800px;
+    height:50px;
+    background-color: rgb(139, 173, 236);
+}
+
+.left{
+    width: 20%;
+    height: 500px;
+    background-color: #f3f395;
+    float: left;
+}
+.right{
+    width: 80%;
+    height: 500px;
+    background-color: rgb(232, 241, 217);
+    float:left;
+}
+
+.footer{
+    width: 100% ;
+    height: 50px;
+    background-color: darkgrey;
+    clear:both;
 }
